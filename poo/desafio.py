@@ -52,4 +52,23 @@ class Studant(User):
         self.__notas = ""
         self.__presenca = ""
         self.__curso = ""
-        
+
+# get       
+    def getNotas(self, notas):
+        pass
+
+    def getPresenca(self, presenca):
+        pass
+
+    def getCursos(self, cursos):
+        pass
+
+# set
+    def setNotas(self, notas):
+        pass
+
+    def setPresenca(self, presenca):
+        pass    
+
+    def setCursos(self, cursos):
+        pass
