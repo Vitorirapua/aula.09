@@ -3,7 +3,7 @@ class User:
     # Metodo contrutor
     def __init__(self,):
     
-        self.__id = ""
+        self.__id = 0
         self.__name = ""
         self.__email = ""
         self.__password = ""
@@ -23,16 +23,16 @@ class User:
     # Get
 
         def getId(self, id):
-            self.__id = id
+            return self.__id 
 
         def setName(self, name):
-            self.__name - name  
+           return self.__name   
 
         def getEmail(self, email):
-            self.__email - email 
+           return self.__email  
 
         def getPassword(self, password):
-            self.__password - password
+           return self.__password 
 
 
     def new(self, name, email):
@@ -49,26 +49,26 @@ class Studant(User):
 
     def __init__(self):
 
-        self.__notas = ""
-        self.__presenca = ""
-        self.__curso = ""
+        self.__notas = {}
+        self.__presenca = {}
+        self.__cursos = ""
 
 # get       
     def getNotas(self, notas):
-        pass
+        return self.__notas
 
     def getPresenca(self, presenca):
-        pass
+        return self.__presenca
 
-    def getCursos(self, cursos):
-        pass
+    def getcursoss(self, cursos):
+        return self.__cursos
 
 # set
     def setNotas(self, notas):
-        pass
+        self.__notas
 
     def setPresenca(self, presenca):
-        pass    
+        self.__presenca    
 
-    def setCursos(self, cursos):
-        pass
+    def setcursos(self, cursos):
+        self.__cursos
